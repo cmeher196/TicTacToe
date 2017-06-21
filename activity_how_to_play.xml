@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.something.chandra.tictactoe.HowToPlay">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="RULES and INSTRUCTIONS"
+        android:gravity="center"
+        android:textColor="#7f5027"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+<ScrollView
+    android:layout_width="400dp"
+    android:layout_height="300dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:id="@+id/scrollView2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n  1.Click on the Play Button in the Home Screen to enter into the game screen or Activity.\n\n
+  2. Minimum two players required to start the game.\n\n
+  3.The player who start the game 'X' is owned by him/her and the 'O'' is owned by the other player.\n\n
+  4.On wining any combination of 8 the winner is declared with a message  corresponding letter he/she has chosen(X,O)\n\n
+  5.At the header part there is a 'Reset button' which enables you to restart the game at any time.\n\n
+  6.To exit the game at any moment select EXIT option from the screen menu list or byclicking on EXIT BUTTON in home screen.\n\n
+
+                          Thank You\n             ALL THE BEST FOR GAME......\n\n\n\n"
+        android:textSize="20dp"
+        android:textColor="#5a1411"
+        android:textStyle=""
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="57dp" />
+</ScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#f36f21"
+        android:text="------------------------------------------------\nHOW TO PLAY\n------------------------------------------------"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7158819369536945/5660266517"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgwooden"
+    android:layout_height="match_parent"
+    tools:context="com.something.chandra.tictactoe.HomePage">
+
+
+    <Button
+        android:id="@+id/b1"
+        android:background="@drawable/plank"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:text="PLAY NOW"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_marginTop="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/b3" />
+
+    <Button
+        android:id="@+id/b2"
+        android:background="@drawable/plank"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="HOW TO PLAY"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/b1"
+        android:layout_alignStart="@+id/b3" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:background="@drawable/plank"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:text="EXIT"
+        android:layout_below="@+id/b2"
+        android:layout_alignStart="@+id/b4"
+        android:layout_marginTop="27dp" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:textSize="40dp"
+        android:background="@drawable/plank"
+        android:textStyle="bold"
+        android:text="about us.."
+        android:layout_below="@+id/b3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+
+
+</RelativeLayout>
