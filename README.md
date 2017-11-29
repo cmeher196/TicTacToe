@@ -1,9 +1,12 @@
 # TicTacToe
 Just a small time worth game made in android
 
-Kindly Find out any bugs in the game.
+It is a 2d game developed as a part of my project where i could end up with dual player and with a gentle ux/ui design.
+simple code line easy to understand.
 
-Changes required are:
--It is dual player, So u need to change it into single player. 
--design an activity after "PLAY NOW OPTION" to get into the activity to have option as single player or dual player.
--Update UX/UI design.
+U can download the file and go through the code.
+
+
+join this for discussion:
+
+https://gitter.im/tictactoe-discussion/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link
